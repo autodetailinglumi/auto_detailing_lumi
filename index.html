@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    
+    <title>Auto Detailing Lumi | Ekspertët e Polirimit & Ceramic Coating</title>
+    <meta name="description" content="Auto Detailing Lumi - Specializuar në Polir Profesional 3-Fazor+ dhe Ceramic Coating SONAX. Kualitet pa kompromis në Suharekë.">
+    <meta name="theme-color" content="#18A3E7">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="https://wa.me/38349839669" class="floating-whatsapp" target="_blank" title="Na kontaktoni në WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div id="loader">
+        <div class="loader-content">
+            <span class="loader-text">LUMI</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-shield-alt logo-icon"></i>
+                <div class="logo-text">
+                    AUTO DETAILING <span class="highlight">LUMI</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="toggleMenu()">Kryefaqja</a></li>
+                <li><a href="#process" onclick="toggleMenu()">Procesi</a></li>
+                <li><a href="#services" onclick="toggleMenu()">Shërbimet</a></li>
+                <li><a href="#gallery" onclick="toggleMenu()">Galeria</a></li>
+                <li><a href="#faq" onclick="toggleMenu()">Pyetje</a></li>
+                <li><a href="#contact" class="btn btn-primary btn-nav-cta" onclick="toggleMenu()">REZERVONI TANI</a></li>
+            </ul>
+
+            <div class="burger-menu" id="burgerMenu" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+            <div class="badge-experience">
+                <i class="fas fa-certificate"></i> Shumë Vite Eksperiencë
+            </div>
+            <h1 class="hero-title">
+                Auto Detailing Lumi
+            </h1>
+            <p class="hero-subtitle">
+                Partner zyrtar SONAX. Transformim rrënjësor dhe mbrojtje absolute për mjetin tuaj.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">
+                    Shiko Paketat Ceramic <i class="fas fa-layer-group"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Rezervo Tani <i class="fas fa-calendar-check"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <i class="fas fa-car"></i>
+                <span>2000+ Mjete të Detajuara</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-award"></i>
+                <span>2x Çertifikata SONAX</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-user-clock"></i>
+                <span>25+ Vite Përvojë</span>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" onclick="scrollToSection('process')">
+            <span>Zbulo Procesin</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <section id="process" class="section process-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">METODOLOGJIA JONË</span>
+                <h2 class="section-title">Korrigjimi i Bojës në <span class="highlight">Hapa Kyç</span></h2>
+                <p>Procesi ynë siguron që në fund, Ceramic Coating të aplikohet në një bazë perfekte.</p>
+            </div>
+
+            <div class="process-grid two-steps">
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-magic"></i></div>
+                    <h3>Polir 3-Fazor+</h3>
+                    <p>Korrigjim i thellë i bojës, heqja e gërvishtjeve (Swirl Marks) dhe rikthimi i thellësisë së ngjyrës. Në raste specifike, ne aplikojmë më shumë se 3 faza për perfeksion.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Ceramic Coating</h3>
+                    <p>Mbyllja e rezultatit me nanoteknologji SONAX për mbrojtje afatgjatë, shkëlqim të lartë dhe efekt hidrofobik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">SHËRBIMET TONA ELITARE</span>
+                <h2 class="section-title">Zgjidhni Nivelin e Mbrojtjes</h2>
+                <p>Të gjitha paketat qeramike përfshijnë Polir Profesional 3-Step për përgatitjen e bojës.</p>
+            </div>
+
+            <div class="pricing-grid">
+                
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <h3>Polir Profesional</h3>
+                        <p class="service-type">Korrigjim Boje 3-Step</p>
+                    </div>
+                    <div class="card-price">
+                        <a href="#contact" class="btn btn-outline-neon full-width" onclick="prefillService('Polir Profesional (3-Step)')">Merr Ofertë</a>
+                    </div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Korrigjim i thellë 3-fazor+</li>
+                        <li><i class="fas fa-check"></i> Heqje e gërvishtjeve (Swirl Marks)</li>
+                        <li><i class="fas fa-check"></i> Rikthim i thellësisë së ngjyrës</li>
+                        <li><i class="fas fa-times" style="color:var(--text-gray);"></i> Nuk Përfshin Ceramic Coating</li>
+                        <li class="recommendation-green"><i class="fas fa-star"></i> Rekomandohet Ceramic Coating!</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="recommended-badge">E REKOMANDUAR</div>
+                    <div class="card-header">
+                        <h3>Ceramic CC One</h3>
+                        <p class="service-type">SONAX Profiline | Jetëgjatësi 3 Vite</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="amount">High Gloss</span>
+                    </div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-double"></i> <strong>Përfshin Polir Profesional 3-Step+</strong></li>
+                        <li><i class="fas fa-shield-alt"></i> Mbrojtje Hibride Si-Carbon</li>
+                        <li><i class="fas fa-tint"></i> Efekt Hidrofobik Ekstrem</li>
+                        <li><i class="fas fa-sun"></i> Mbrojtje UV & Kimikate</li>
+                        <li class="note-text">*Jetëgjatësia sipas specifikave të SONAX</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary full-width" onclick="prefillService('Ceramic CC One (3 Vjet)')">Rezervo Tani</a>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-header">
+                        <h3>Ceramic CC Pro</h3>
+                        <p class="service-type">SONAX Profiline | Jetëgjatësi 4 Vite</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="amount">Ultra Hard</span>
+                    </div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-double"></i> <strong>Përfshin Polir Profesional 3-Step+</strong></li>
+                        <li><i class="fas fa-layer-group"></i> Teknologji Ultra-Harden (H9)</li>
+                        <li><i class="fas fa-meteor"></i> Rezistencë maksimale ndaj mjedisit</li>
+                        <li><i class="fas fa-certificate"></i> Certifikatë Zyrtare Aplikimi</li>
+                        <li class="note-text">*Aplikuar nga teknikë të specializuar</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-neon full-width" onclick="prefillService('Ceramic CC Pro (4 Vjet)')">Rezervo Tani</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="section-subtitle">EVIDENCA VIZUALE</span>
+                <h2 class="section-title">Galeria e Projekteve</h2>
+            </div>
+            
+            <div class="coming-soon-container" data-aos="zoom-in">
+                <div class="coming-soon-content">
+                    <i class="fas fa-tools"></i>
+                    <h3>Coming Soon</h3>
+                    <p>Po punojmë në galerinë tonë interaktive "Para & Pas". Shumë shpejt do të mund të shikoni transformimet e mahnitshme të automjeteve tona.</p>
+                    <div class="gallery-cta text-center mt-4">
+                        <a href="https://www.instagram.com/auto_detailing_lumi/" target="_blank" class="btn btn-text">
+                            Shiko më shumë në Instagram <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@auto_detailing_lumi" target="_blank" class="btn btn-text ml-3">
+                            Shiko më shumë në TikTok <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Pyetje të Shpeshta</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" onclick="toggleFaq(this)" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h4>A është e nevojshme të lë veturën 1-2 ditë?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Po. Për rezultate perfekte, procesi i polirimit kërkon kohë, dhe qeramika kërkon minimum 12-24 orë kohë tharjeje (curing time) në ambient të kontrolluar para se të ekspozohet ndaj elementeve.</p>
+                        <p class="note">Është e nevojshme të rezervoni 1-2 ditë më herët.</p>
+                    </div>
+                </div>
+                <div class="faq-item" onclick="toggleFaq(this)" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h4>A bëni pastrim kimik të brendshëm?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Jo. Ne jemi të specializuar 100% në estetikën e jashtme: Polir dhe Ceramic Coating. Kjo na lejon të jemi më të mirët në atë që bëjmë.</p>
+                    </div>
+                </div>
+                <div class="faq-item" onclick="toggleFaq(this)" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h4>Çfarë nënkupton jetëgjatësia e SONAX?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Jetëgjatësia e SONAX i referohet kohës së produktit mbi bojë (3 ose 4 vjet) kur aplikohet nga profesionistë dhe mirëmbahet sipas udhëzimeve (larje me shampo pH neutral, pa furça automatike). Ne jemi të autorizuar të ofrojmë këtë garanci si partnerë zyrtarë.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                
+                <div class="contact-box info-box" data-aos="fade-right">
+                    <h3>Informata & Lokacioni</h3>
+                    <p class="contact-desc">Numri i mjeteve që pranojmë në javë është i limituar. Ju lutemi rezervoni paraprakisht.</p>
+                    
+                    <div class="info-blocks">
+                        <div class="info-block">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Lokacioni</h4>
+                                <p>Suharekë, Sopijë (Rruga Kryesore)</p>
+                            </div>
+                        </div>
+                        <div class="info-block">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Orari i Punës</h4>
+                                <p>E Hënë - E Shtunë: 08:00 - 18:00</p>
+                                <p class="closed-day">E Diel: Mbyllur</p>
+                            </div>
+                        </div>
+                        <div class="info-block">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Kontakti Direkt</h4>
+                                <p>+383 49 839 669</p>
+                                <div class="social-mini">
+                                    <a href="https://wa.me/38349839669" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="mailto:autodetailinglumi@gmail.com"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container-small">
+                        <iframe 
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=20.839762,42.335767,20.839762,42.335767&layer=mapnik&marker=42.335767,20.839762" 
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="contact-box form-box" data-aos="fade-left">
+                    <form id="bookingForm" onsubmit="handleFormSubmit(event)">
+                        <h3>Kërkesë për Termin</h3>
+                        
+                        <div class="form-group">
+                            <label>Emri & Mbiemri</label>
+                            <input type="text" id="name" required placeholder="Emri Juaj...">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Numri i Telefonit</label>
+                            <input type="tel" id="phone" required placeholder="+383 49...">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Marka & Modeli i Veturës</label>
+                            <input type="text" id="car" required placeholder="psh. Audi A6, BMW X5...">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Shërbimi i Dëshiruar</label>
+                            <select id="service" required>
+                                <option value="" disabled selected>Zgjidhni shërbimin...</option>
+                                <option value="Polir Profesional (3-Step)">Polir Profesional 3-Step+</option>
+                                <option value="Ceramic CC One (3 Vjet)">Ceramic CC One (3 Vjet)</option>
+                                <option value="Ceramic CC Pro (4 Vjet)">Ceramic CC Pro (4 Vjet)</option>
+                                <option value="Konsultë / Tjetër">Dua vetëm konsultë</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group contact-method-group">
+                            <label>Si dëshironi të dërgoni kërkesën?</label>
+                            <div class="radio-options">
+                                <label class="radio-box active">
+                                    <input type="radio" name="contactMethod" value="whatsapp" checked onchange="toggleMethod(this)">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </label>
+                                <label class="radio-box">
+                                    <input type="radio" name="contactMethod" value="email" onchange="toggleMethod(this)">
+                                    <i class="fas fa-envelope"></i> Email
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary full-width">
+                            <span id="btnText">Dërgo në WhatsApp <i class="fab fa-whatsapp"></i></span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>AUTO DETAILING LUMI</h2>
+                <p>Auto Detailing Lumi: Ne fokusohemi ekskluzivisht në Polirimin dhe Ceramic Coating të automjeteve, duke siguruar kualitet të lartë dhe besueshmëri të provuar.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/auto_detailing_lumi/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@auto_detailing_lumi" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#home">Kryefaqja</a></li>
+                    <li><a href="#services">Shërbimet</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Kontakti</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h4>Shërbimet</h4>
+                <ul>
+                    <li>Polir Profesional 3-Step+</li>
+                    <li>SONAX CC One (3 Vjet)</li>
+                    <li>SONAX CC Pro (4 Vjet)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Auto Detailing Lumi. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+    
+    <button id="scrollToTopBtn" title="Kthehu Lart"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
